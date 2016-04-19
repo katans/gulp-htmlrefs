@@ -159,7 +159,7 @@ module.exports = function(options) {
     }
 
     function cssHandler(revFile, srcFile, tag) {
-        if (srcFile.indexOf('://') >= 0) {
+        if (srcFile.indexOf('//') >= 0) {
             return tag;
         }
         // handler inline
